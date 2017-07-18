@@ -23,14 +23,14 @@ dependencies {
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'com.wang.avi'
-    PUBLISH_VERSION = '2.1.3'
-    PUBLISH_DES = 'Nice loading animations for Android'
-    LIB_NAME = 'AVLoadingIndicatorView'
+    groupId = 'com.wang.avi'
+    version = '2.1.3'
+    desc = 'Nice loading animations for Android'
+    versionName = 'AVLoadingIndicatorView'
 
-    WEBSITE_URL = 'https://github.com/81813780/AVLoadingIndicatorView'
-    ISSUE_TRACKER_URL = 'https://github.com/81813780/AVLoadingIndicatorView/issues'
-    VSC_URL = 'https://github.com/81813780/AVLoadingIndicatorView'
+    websiteUrl = 'https://github.com/81813780/AVLoadingIndicatorView'
+    issueTrackerUrl = 'https://github.com/81813780/AVLoadingIndicatorView/issues'
+    vcsUrl = 'https://github.com/81813780/AVLoadingIndicatorView'
 }
 
 apply from: 'https://raw.githubusercontent.com/andforce/release-android-lib-to-jcenter/master/bintray.gradle'
